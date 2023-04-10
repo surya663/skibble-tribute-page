@@ -1,0 +1,106 @@
+/* Reset Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #1f1f1f;
+	color: #fff;
+}
+
+/* Header Styles */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: #121212;
+}
+
+.logo-container img {
+	max-height: 50px;
+}
+
+.gurren-img {
+    width:250px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li + li {
+	margin-left: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c29a49;
+}
+
+/* Main Content Styles */
+main {
+	padding: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+figure {
+	margin-bottom: 1rem;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+/* Kamina Section Styles */
+#kamina {
+	background-color: #4d4d4d;
+	padding: 2rem;
+}
+
+/* Simon Section Styles */
+#simon {
+	background-color: #9b4dca;
+	padding: 2rem;
+}
+
+/*Yoko Section Styles*/
+#yoko {
+	background-color: #660000;
+    padding: 2rem;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #121212;
+	padding: 1rem;
+}
+
+/* Font Awesome Styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
